@@ -16,12 +16,11 @@ public class StaticData {
                                                   new DistanceMap(ZONEA,ZONEC,6),
                                                   new DistanceMap(ZONEB,ZONEC,3),
                                                   new DistanceMap(ZONEB,ZONEB,0),
-                                                  new DistanceMap(ZONEB,ZONEC,8),
                                                   new DistanceMap(ZONEC,ZONEC,0));
 
     static List<Store> stores=Arrays.asList(new Store("1",ZONEA,Arrays.asList("Milk","Eggs",
                                                                               "Bread")),
-                                            new Store("2",ZONEB,Arrays.asList("Bread","Milks")),
+                                            new Store("2",ZONEB,Arrays.asList("Bread","Milk")),
                                             new Store("3",ZONEC,Arrays.asList("Juice","Bread")));
 
     static List<Item> items=Arrays.asList(new Item("1", "Notebook", "", 15),
